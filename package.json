@@ -1,0 +1,14 @@
+{
+  "name": "eye-to-face",
+  "version": "2.0.0",
+  "description": "Eye → Face: ASCII eye animation that zooms into the pupil and reveals Gemini-generated genre moodboard artwork. The backend keeps the API key server-side. No npm dependencies.",
+  "main": "server.js",
+  "private": true,
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "test": "node test/run.js"
+  },
+  "license": "MIT"
+}
